@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.form{
+  width: 400px;
+  height: 300px;
+  background: #fff;
+  box-shadow: 0px 2px 0px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.form h2{
+  color: #747bff;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.p{
+  color: darkred;
+}
